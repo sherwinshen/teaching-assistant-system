@@ -6,6 +6,7 @@
 >
 
 
+
 ## 技术栈
 
 后台 : nodejs + express 
@@ -13,6 +14,8 @@
 前台 : vue2.0 + Element-ui + Mint-UI + vuex + vue-router + axios + es6/7 
 
 数据库 : mongodb + mongoose 
+
+
 
 ## 本地运行
 
@@ -25,9 +28,25 @@
   - 教师端访问：http://localhost:8080
   - 学生端访问：http://localhost:8082
 
+
+
 ## 系统演示
 
 点击[课堂教学辅助系统-演示视频](https://www.bilibili.com/video/BV1c64y1u7be/)进行查看，时长03:08。
+
+
+
+## 功能列表
+
+<img src='pic.png'>
+
+
+
+## 开发说明
+
+详见[课堂教学辅助系统-开发笔记](开发笔记.md)，当前项目代码结构的逻辑性存在一定缺陷，更清晰的项目结构可参考[Vue项目结构](https://github.com/MrEnvision/Front-end_learning_project/tree/master/vueProjectStructure)。
+
+
 
 ## 参考资料
 
@@ -53,4 +72,6 @@
 
 ------
 
-注：由于本项目为毕业设计，为保证个人权益，暂时不共享服务端后台的相关代码。
+注1：由于本项目为毕业设计，为保证个人权益，暂时不共享服务端后台的相关代码。
+
+注2：本项目仅供学习使用，项目中所使用的所有图标图片等相关版权为设计者所有。

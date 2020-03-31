@@ -6,34 +6,33 @@ const path = require('path')
 
 module.exports = {
   dev: {
-
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/goods/*':{
-        target:'http://localhost:3000'
+      '/goods/*': {
+        target: 'http://localhost:3000'
       },
-      '/teachers/*':{
-        target:'http://localhost:3000'
+      '/teachers/*': {
+        target: 'http://localhost:3000'
       },
-      '/lists/*':{
-        target:'http://localhost:3000'
+      '/lists/*': {
+        target: 'http://localhost:3000'
       },
-      '/courses/*':{
-        target:'http://localhost:3000'
+      '/courses/*': {
+        target: 'http://localhost:3000'
       },
-      '/studentsList/*':{
-        target:'http://localhost:3000'
+      '/studentsList/*': {
+        target: 'http://localhost:3000'
       },
-      '/upload/*':{
-        target:'http://localhost:3000'
+      '/upload/*': {
+        target: 'http://localhost:3000'
       },
-      '/banks/*':{
-        target:'http://localhost:3000'
+      '/banks/*': {
+        target: 'http://localhost:3000'
       },
-      '/tests/*':{
-        target:'http://localhost:3000'
+      '/tests/*': {
+        target: 'http://localhost:3000'
       }
     },
 
