@@ -1,6 +1,6 @@
 # 简介
 
-本系统主要包含三大部分：教师端前台项目、学生端前台项目、后台接口项目。
+本系统主要包含三大部分：教师端前台项目、学生端前台项目、后台接口项目（2018 版）。
 
 >  开发环境 macOS 10.13.4  nodejs 8.9.3  Mongodb 3.4.2
 >
@@ -23,8 +23,8 @@
 
 2、进入项目目录
 
-- 进入server目录，启动服务器：node bin/www
-- 进入teacher或student目录，启动前端：npm run dev
+- 进入 server 目录，启动服务器：node bin/www
+- 进入 teacher 或 student 目录，启动前端：npm run dev
   - 教师端访问：http://localhost:8080
   - 学生端访问：http://localhost:8082
 
@@ -38,13 +38,13 @@
 
 ## 功能列表
 
-<img src='pic.png'>
+<img src='./assets/function.png'>
 
 
 
 ## 开发说明
 
-详见[课堂教学辅助系统-开发笔记](开发笔记.md)，当前项目代码结构的逻辑性存在一定缺陷，更清晰的项目结构可参考[Vue项目结构](https://github.com/MrEnvision/Front-end_learning_project/tree/master/vueProjectStructure)。
+详见[课堂教学辅助系统-开发笔记](./assets/dev-manual.md)，当前项目代码结构的逻辑性存在一定缺陷，更清晰的项目结构可参考 [Vue项目结构](https://github.com/MrEnvision/Front-end_learning_project/tree/master/vueProjectStructure)。
 
 
 
@@ -67,8 +67,6 @@
 - [Web应用系统的安全性设计](https://wenku.baidu.com/view/4a36d23984254b35effd3425.html)
 - [Vue 爬坑之路（八）—— 使用 Echarts 创建图表 - WiseWrong - 博客园](https://www.cnblogs.com/wisewrong/p/6558001.html)
 - [把nodejs项目部署到阿里云](https://blog.csdn.net/chenlinIT/article/details/73343793)
-
-
 
 ------
 

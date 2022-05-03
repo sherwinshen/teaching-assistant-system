@@ -1,16 +1,8 @@
 # 课堂教学辅助系统开发笔记
 
-前端：Vuejs + Vuex + axios +ElementUI + MintUI
+# 1、服务器端（含数据库）
 
-后端：Nodejs + Express
-
-数据库：MongoDB + Mongoose
-
-
-
-## 项目构建
-
-### 1、服务器端（含数据库）
+> 服务器端使用 Nodejs + Express，数据库使用 MongoDB + Mongoose
 
 - 初始化package.json文件
 
@@ -80,9 +72,9 @@ Teacher.findOne(param, function (err, doc) {
 $ DEBUG=projectName:* npm start
 ```
 
+# 2、前端（教师端+学生端）
 
-
-### 2、前端（教师端+学生端）
+> 前端使用 Vuejs + Vuex + axios +ElementUI + MintUI
 
 - 初始化vue项目
 
@@ -103,7 +95,7 @@ $ npm i -S mint-ui element-ui vuex
 $ npm run dev
 ```
 
-### 3、前后端跨域
+# 3、前后端跨域
 
 - 安装axios
 
@@ -212,13 +204,6 @@ location /api/ {
 
 参考链接：[前端如何使用proxyTable和nginx解决跨域问题](https://www.cnblogs.com/webhmy/p/9340361.html)
 
-
-
-
-
 ------
 
 如果发现本项目有内容上的错误，欢迎提交 issues 进行指正，相关合作请邮件联系[EnvisionShen@gmail.com](mailto:EnvisionShen@gmail.com)
-
-
-
